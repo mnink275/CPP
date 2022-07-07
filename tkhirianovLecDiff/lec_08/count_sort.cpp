@@ -1,3 +1,4 @@
+// Сортировка подсчётом: по времени О(N + M), где M - диапозон чисел.
 #include <iostream>
 
 using namespace std;

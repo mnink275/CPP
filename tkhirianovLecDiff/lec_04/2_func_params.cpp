@@ -16,7 +16,7 @@ int main()
     using namespace std;
     int b = 3;
     
-    increment(&b);     // Здесь будет скопирован адрес переменной b.
+    increment(&b);     // Здесь будет скопирован адрес переменной b. Тип (&b) = int*.
     cout << b << endl;   // Естественно, вызов функции inc(b) не изменил b.
     
     return 0;

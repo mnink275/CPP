@@ -2,7 +2,7 @@
 
 using namespace std;
 
-struct t_Pair {  // создаём новый тип t_Pair
+struct t_Pair {  // создаём новый тип t_Pair. Это только декларация!
     int a;
     int b;
 };

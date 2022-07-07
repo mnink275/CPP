@@ -1,3 +1,4 @@
+// Поразрядная сортировка: по времени О(M*N), где M=log_2(max(A[i])), по памяти O(N).
 #include <iostream>
 
 using namespace std;

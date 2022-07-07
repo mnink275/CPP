@@ -14,7 +14,7 @@ int main()
     double s = 0;
     double factor;
     for(int n = 0, factor=1; n < 10; n++) {
-        s += pow(-1, n)*pow(x, 2*n + 1)/factor;
+        s += pow((-1), n)*pow(x, 2*n + 1)/factor;
         factor *= 2*n*(2*n + 1);
     }
     cout << s;
