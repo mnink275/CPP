@@ -1,3 +1,4 @@
+// Динамическое программирование снизу вверх.
 #include <iostream>
 #include <cassert>
 

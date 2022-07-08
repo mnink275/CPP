@@ -41,7 +41,7 @@ int main()
         fib = fib_dynamic;
     }
 
-    for (int n = 0; n <= 100; n++) {
+    for (int n = 0; n <= 60; n++) {
         std::cout << n << '\t' << fib(n) << '\n';
     }
 
