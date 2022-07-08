@@ -12,11 +12,11 @@ void generate_binary_numbers(int digits_left_to_generate)
             std::cout << digits_combination[i];
         std::cout << '\n';
     } else {  // recursive case
-        digits_combination[top++] = 1;
+        digits_combination[top++] = 0;
         generate_binary_numbers(digits_left_to_generate - 1);
         top--;
 
-        digits_combination[top++] = 0;
+        digits_combination[top++] = 1;
         generate_binary_numbers(digits_left_to_generate - 1);
         top--;
     }

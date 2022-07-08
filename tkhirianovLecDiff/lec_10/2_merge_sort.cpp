@@ -1,3 +1,4 @@
+// Сортировка слиянием, в худшем случае: O(n*log_2(n)).
 #include <iostream>
 #include <array>
 
@@ -36,7 +37,7 @@ void merge_sort(double *array, int16_t array_size)
             buffer_i += 1;
         }
     }
-    while (left_i < left_size) { // copying left elements from the left size (if there is left something)
+    while (left_i < left_size) { // copying left elements from the left size (if there is left something) 
         buffer[buffer_i] = left[left_i];
         left_i += 1;
         buffer_i += 1;
